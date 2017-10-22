@@ -1,7 +1,7 @@
 # OOExamples
 
 ## Description
-This repository contains examples that show how to use objects of the OOSwift repositories (OOBase, OOFoundation, OOUIKit, ...).
+This repository contains examples that show how to implement object oriented. For that it uses the OOSwift object libraries (OOBase, OOFoundation, OOUIKit, ...) 
 
 ## Object orientation
 All objects follow these rules:
