@@ -5,7 +5,19 @@ Phoenx::Project.new do |project|
     project.config_files["Release"] = "Configuration/Project/Release.xcconfig"
     project.support_files = ["Configuration/**/*.{xcconfig,plist}", "*.{pxproject}", "Makefile", ".gitignore", "Playground/**/*.playground", "*.md", "LICENSE", "Cartfile*"]
 
-    project.target "LoginExample", :application, :ios, '11.0' do |target|
+    project.target "ExampleLegoWorld", :application, :ios, '11.0' do |target|
+
+        target.config_files["Debug"] = "Configuration/ExampleLegoWorld/Debug.xcconfig"
+        target.config_files["Release"] = "Configuration/ExampleLegoWorld/Release.xcconfig"
+        target.sources = ["SourcesExampleLegoWorld/**/*.{swift}"]
+        target.resources = ["SourcesExampleLegoWorld/**/*.{json,png,storyboard,strings,otf,ttf,db,xib}"]
+        target.frameworks = ["Carthage/Build/iOS/OOBase.framework", "Carthage/Build/iOS/OOFoundation.framework", "Carthage/Build/iOS/OOUIKit.framework"]
+        target.system_frameworks = ["Foundation", "UIKit"]
+        target.system_libraries = []
+
+    end
+
+    project.target "ExampleLogin", :application, :ios, '11.0' do |target|
 
         target.config_files["Debug"] = "Configuration/ExampleLogin/Debug.xcconfig"
         target.config_files["Release"] = "Configuration/ExampleLogin/Release.xcconfig"
