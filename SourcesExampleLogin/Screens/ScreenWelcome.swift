@@ -17,12 +17,12 @@ public final class ScreenWelcome: OOScreenWrap {
                 ViewCentered(width: 260, height: 120, content:
                     ViewStackVertical(content: [
                         (height: 50, view:
-                            ViewLabel(title: "Willkommen!", color: ColorDefault(.black), font: FontSystem(size: 24), textAlignment: .center)
+                            ViewLabel(title: "Willkommen!", color: ColorBlack, font: FontSystem(size: 24), textAlignment: .center)
                         ),
                         (height: VerticalStretched, view: ViewSpace()),
                         (height: 50, view:
-                            ViewColored(color: ColorDefault(.red), content:
-                                ViewTextButton(title: "Logout", color: ColorDefault(.white), font: FontSystem(size: 24), action: logoutAction)
+                            ViewColored(color: ColorRed, content:
+                                ViewTextButton(title: "Logout", color: ColorWhite, font: FontSystem(size: 24), action: logoutAction)
                             )
                         )
                     ])

@@ -47,13 +47,13 @@ public final class ScreenLogin: OOScreenWrap {
                                         condition: !IsEmptyString(loginString) && !IsEmptyString(passwordString),
                                         conditionChangeListener: loginString && passwordString,
                                         isTrue: {
-                                            ViewColored(color: ColorDefault(.green), content:
-                                                ViewTextButton(title: "Login", color: ColorDefault(.white), font: FontSystem(size: 24), action: successAction)
+                                            ViewColored(color: ColorGreen, content:
+                                                ViewTextButton(title: "Login", color: ColorWhite, font: FontSystem(size: 24), action: successAction)
                                             )
                                         },
                                         isFalse: {
-                                            ViewColored(color: ColorDefault(.gray), content:
-                                                ViewLabel(title: "Login", color: ColorDefault(.white), font: FontSystem(size: 24), textAlignment: .center)
+                                            ViewColored(color: ColorGray, content:
+                                                ViewLabel(title: "Login", color: ColorWhite, font: FontSystem(size: 24), textAlignment: .center)
                                             )
                                         }
                                     )

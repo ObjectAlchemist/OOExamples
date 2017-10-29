@@ -19,7 +19,7 @@ public final class ScreenFlow: OOScreenWrap {
         
         // object composition
         super.init(origin:
-            ScreenColored(color: ColorDefault(.white), content:
+            ScreenColored(color: ColorWhite, content:
                 ScreenSimple(content:
                     ViewVerticalCentered(width: 260, content:
                         ViewStackVertical(content: [

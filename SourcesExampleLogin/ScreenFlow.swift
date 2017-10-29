@@ -18,7 +18,7 @@ public final class ScreenFlow: OOScreenWrap {
         
         // object composition
         super.init(origin:
-            ScreenColored(color: ColorDefault(.white), content:
+            ScreenColored(color: ColorWhite, content:
                 ScreenOR(
                     condition: alreadyLoggedIn,
                     isTrue: { _ in

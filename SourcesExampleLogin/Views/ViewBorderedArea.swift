@@ -13,9 +13,9 @@ public final class ViewBorderedArea: OOViewWrap {
     
     public init(content: OOView) {
         super.init(origin:
-            ViewColored(color: ColorDefault(.black), content:
+            ViewColored(color: ColorBlack, content:
                 ViewBordered(top: 1, bottom: 1, left: 1, right: 1, content:
-                    ViewColored(color: ColorDefault(.white), content:
+                    ViewColored(color: ColorWhite, content:
                         ViewBordered(top: 5, bottom: 5, left: 5, right: 5, content:
                             content
                         )
