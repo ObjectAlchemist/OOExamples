@@ -14,7 +14,6 @@
 		2715030310465F458D1F81CF /* ViewBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA0E85732A2981059E6BC33 /* ViewBorderedButton.swift */; };
 		2B1224496FE47DCB437977DF /* OOBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEB167F46B3883DB4253146 /* OOBase.framework */; };
 		4FF5959EDAA2FCAAA7292BE9 /* OOFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24511D64ADDCCACF2C1C66B8 /* OOFoundation.framework */; };
-		52D98CD55515AA951679DD13 /* ScreenFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98153A6E96338905A912E7A5 /* ScreenFlow.swift */; };
 		583DF7A54FE35B882C38B137 /* ScreenWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A55495A2C3BC89A1B5349 /* ScreenWelcome.swift */; };
 		6B440467D4336A3E2354184F /* OOUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC19155FF3B74994BE2EC902 /* OOUIKit.framework */; };
 		76E1988F092A25B746316DD6 /* OOUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC19155FF3B74994BE2EC902 /* OOUIKit.framework */; };
@@ -29,7 +28,7 @@
 		AF7DF808DA7749C73EC71249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C740E669DF5CCF7BA2AC4433 /* Foundation.framework */; };
 		B0634E3F26211CC8F9E5C000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C9DE7084EC8EB049BAF9AD /* LaunchScreen.storyboard */; };
 		B5FF0F38EDAF18CAEB650AB3 /* OOFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 24511D64ADDCCACF2C1C66B8 /* OOFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		B6992DD727AF4979455F3E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBFE759F5A5C3A56C463AF9 /* AppDelegate.swift */; };
+		B6992DD727AF4979455F3E09 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBFE759F5A5C3A56C463AF9 /* Application.swift */; };
 		DA16100AE456F8C31C640932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C01235CCD5936A560D4314 /* AppDelegate.swift */; };
 		E66363850CDE59455588F873 /* OOFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24511D64ADDCCACF2C1C66B8 /* OOFoundation.framework */; };
 		EBE9B89306991C74C27B983B /* OOBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEB167F46B3883DB4253146 /* OOBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -82,14 +81,13 @@
 		7AEB167F46B3883DB4253146 /* OOBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OOBase.framework; sourceTree = "<group>"; };
 		894FE0EA296C4E8BA867A9C2 /* Cartfile.resolved */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
 		903A55495A2C3BC89A1B5349 /* ScreenWelcome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScreenWelcome.swift; sourceTree = "<group>"; };
-		98153A6E96338905A912E7A5 /* ScreenFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScreenFlow.swift; sourceTree = "<group>"; };
 		9CFDDC3A7087C0D3748D032D /* Debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		A021FDE35A5D24DC5E4EC8F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A4B7577647073E1F143876EF /* ViewBorderedArea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewBorderedArea.swift; sourceTree = "<group>"; };
 		A5045577FB22C45CAABB62FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF1BD9FB4A815AFE547D90AE /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B04B23A98A77D5843DD89BC1 /* Makefile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		BCBFE759F5A5C3A56C463AF9 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCBFE759F5A5C3A56C463AF9 /* Application.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		C740E669DF5CCF7BA2AC4433 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D25E6EC4A29EBB7901DF7980 /* Debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		D3107E4AB0E06C4C9AFA51D2 /* OOExamples.pxproject */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = OOExamples.pxproject; sourceTree = "<group>"; };
@@ -171,8 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				F989927FF5EBD3B700EBCC06 /* _Resources */,
-				BCBFE759F5A5C3A56C463AF9 /* AppDelegate.swift */,
-				98153A6E96338905A912E7A5 /* ScreenFlow.swift */,
+				BCBFE759F5A5C3A56C463AF9 /* Application.swift */,
 				3ED5ED459FD1EEB3A60F30A3 /* Screens */,
 				B9FBDDA0297E6CB6F0AE0028 /* Views */,
 			);
@@ -415,8 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6992DD727AF4979455F3E09 /* AppDelegate.swift in Sources */,
-				52D98CD55515AA951679DD13 /* ScreenFlow.swift in Sources */,
+				B6992DD727AF4979455F3E09 /* Application.swift in Sources */,
 				15A61150ADEB15AFDFA16552 /* ScreenLogin.swift in Sources */,
 				583DF7A54FE35B882C38B137 /* ScreenWelcome.swift in Sources */,
 				FED35B5444D41E141967A850 /* ViewBorderedArea.swift in Sources */,
