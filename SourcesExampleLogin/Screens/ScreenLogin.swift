@@ -20,12 +20,12 @@ public final class ScreenLogin: OOScreenWrap {
 
         // textfields (index 0 & 1)
         let loginTextField = ViewTextField(value: loginString, placeholder: "Login", isLast: false, delegate:
-            TextFieldDelegateSimple(
+            UITextFieldDelegateEdit(
                 shouldReturn: { _ in BoolDoWhenGetValue(true, action: DoWritableIntSet(1, to: currentReponderIndex)) }
             )
         )
         let passwordTextField = ViewSecureTextField(value: passwordString, placeholder: "Password", isLast: true, delegate:
-            TextFieldDelegateSimple(
+            UITextFieldDelegateEdit(
                 shouldReturn: { _ in BoolDoWhenGetValue(true, action: DoWritableIntSet(2, to: currentReponderIndex)) }
             )
         )
