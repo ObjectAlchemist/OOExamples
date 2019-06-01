@@ -358,22 +358,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 1020;
 				TargetAttributes = {
 					A17AD4A4EB682AB788290161 = {
 						ProvisioningStyle = Automatic;
 					};
 					E87D13E1A350AB860C642F89 = {
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 8363A16E0364EBA8AD4F4B6B /* Build configuration list for PBXProject "OOExamples" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 62E605A6D849B4AA4C7405D8;
 			productRefGroup = 0730554F4311D881C14B2545 /* Products */;
